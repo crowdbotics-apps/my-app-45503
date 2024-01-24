@@ -1476,7 +1476,7 @@
     react-native-qrcode-svg "6.1.2"
     react-native-svg "12.3.0"
 
-"@modules/chat@file:./modules/chat/":
+"@modules/chat@file:./modules/chat":
   version "1.1.0"
   dependencies:
     is-url "^1.2.4"
