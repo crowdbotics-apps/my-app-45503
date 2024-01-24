@@ -1481,13 +1481,6 @@
     react-native-qrcode-svg "6.1.2"
     react-native-svg "12.3.0"
 
-"@modules/2fa@file:./modules/2fa/":
-  version "1.0.1"
-  dependencies:
-    react-native-dropdown-picker "^5.4.6"
-    react-native-qrcode-svg "6.1.2"
-    react-native-svg "12.3.0"
-
 "@modules/chat@file:./modules/chat":
   version "1.1.0"
   dependencies:
@@ -1503,6 +1496,13 @@
     zustand "^3.5.13"
 
 "@modules/contact-us@file:./modules/contact-us":
+  version "1.0.1"
+  dependencies:
+    "@react-navigation/native" "6.0.8"
+    "@react-navigation/native-stack" "6.5.0"
+    react-native-screens "3.10.2"
+
+"@modules/contact-us@file:./modules/contact-us/":
   version "1.0.1"
   dependencies:
     "@react-navigation/native" "6.0.8"
@@ -1538,9 +1538,6 @@
   version "1.0.0"
 
 "@modules/push-notifications@file:./modules/push-notifications":
-  version "1.0.0"
-
-"@modules/push-notifications@file:./modules/push-notifications/":
   version "1.0.0"
 
 "@modules/social-login@file:./modules/social-login":
